@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.h{
+    height:28rem;
+}
+::-webkit-scrollbar
+{
+width: 5px; /* ancho barra */
+}
+::-webkit-scrollbar-track
+{
+background: var(--gray_black); /* color fondo barra */
+}
+::-webkit-scrollbar-thumb
+{
+background: rgba(209,201,198,255); /* color barra */
+border-radius: 5px; /* borde barra */
+}
+::-webkit-scrollbar-thumb:hover
+{
+background: rgba(209,201,198,255); /* color barra hover */
+}
